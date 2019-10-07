@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="site.css">
   </head>
+
    <body>
-     <h1> Вакансия: Junior Frontend Developer </h1> 
-     <img src="ВЕНТУРА.jpg" style="width:20%" alt="Тут_должен_быть_Вентура" align="left"> <br>
+    
+    <h1> Вакансия: Junior Frontend Developer </h1> 
+
+     <img src="ВЕНТУРА.jpg" style="width: 270px;" alt="Тут_должен_быть_Вентура" align="left"> 
      <pre> 
         Имя: Овчинникова Анна Валентиновна <br>
         <a href="https://github.com/Anna96Turtle/UX-UI">Ссылка на репозиторий в GitHub</a> <br>
         Опыт работы: нет <br> 
      </pre> 
      <br>
-        <label for="Дата_собеседования">Дата собеседования:</label>
-        <input type="date"> <img src="календарь.jpg" alt="Календарь" style="width:20%" style="float:right;"><br>
+        <label for="Interview_date">Дата собеседования:</label>
+        <input type="date"> <img src="календарь.jpg" alt="calendar" style="width:20%" style="float:right;"><br>
            <br>
         <label>Уровень владения английским языком: </label><br>
-          <input type="radio" id="Плохо" value="Плохо" name="user_уровень_владения_английским_языком"><label for="Плохо" class="light">Плохо</label>
-          <input type="radio" id="Средне" value="Средне" name="user_уровень_владения_английским_языком"><label for="Средне" class="light">Средне</label>
-          <input type="radio" id="Хорошо" value="Хорошо" name="user_уровень_владения_английским_языком"><label for="Хорошо" class="light">Хорошо</label>
-          <input type="radio" id="Превосходно" value="Превосходно" name="user_уровень_владения_английским_языком"><label for="Превосходно" class="light">Превосходно</label><br>
+          <input type="radio" id="bad" value="bad" name="user_level_speak_english"><label for="bad" class="light">Плохо</label>
+          <input type="radio" id="middle" value="middle" name="user_level_speak_english"><label for="middle" class="light">Средне</label>
+          <input type="radio" id="good" value="good" name="user_level_speak_english"><label for="good" class="light">Хорошо</label>
+          <input type="radio" id="perfect" value="perfect" name="user_level_speak_english"><label for="perfect" class="light">Превосходно</label><br>
             <br>
          <label>Ключевые навыки:</label>
           <ul> 
@@ -31,34 +35,36 @@
                <li> JavaScript</li>
                <li> ...</li>
           </ul>
-          <input type="text" id="введите навык..." placeholder="введите навык..." name="введите навык...">  <button type="submit">Жмакай смелее</button><br>
+        
+          <input type="text" id="skill" placeholder="enter your skill..." name="user_skill...">  <button type="submit">Жмакай смелее</button><br>
           <br>
             <label for="courses">Коммуникабельность:</label>
             <select id="courses" name="Коммуникабельность">
-             <option value="computer_engineering">Суперстар</option>
-             <option value="slectrical_engineering">Могу контактировать с неземной цевилизацией</option>
-             <option value="mechanical_engineering">Обычный офисный рабочий</option>
-             <option value="civil_engineering">Подросток</>
-             <option value="chemical_engineering">Пещерный человек</option>
+             <option value="Суперстар_engineering">Суперстар</option>
+             <option value="Могу_контактировать_с_неземной_цивилизацией_engineering">Могу контактировать с неземной цивилизацией</option>
+             <option value="Обычный_офисный_рабочий_engineering">Обычный офисный рабочий</option>
+             <option value="Подросток_engineering">Подросток</option>
+             <option value="Пещерный_человек_engineering">Пещерный человек</option>
             </select><br>
               <br>
-        <label for="Желаемая_З/П:">Желаемая З/П:</label>
-        <input type="text" placeholder="и на какие горы ты расчитываешь" id="Желаемая З/П:" name="sum"><br>
+        <label for="salary">Желаемая З/П:</label>
+        <input type="number" placeholder=" и на что ты расчитывал" id="salary" name="sum"><br>
         <br>
      <label>Подходит по критериям: </label><br><br>
-     <input type="checkbox" id="Знание английского" value="Знание английского" name="user_подходит_по_критериям:"><label for="Знание английского" class="light">Знание английского</label>
+     <input type="checkbox" id="level_english" value="Знание английского" name="user_подходит_по_критериям:"><label for="Знание английского" class="light">Знание английского</label>
      <input type="checkbox" id="Оклад" value="Оклад" name="user_подходит_по_критериям:"><label for="Оклад" class="light">Оклад</label>
-     <input type="checkbox" id="Навыки" value="Навыки" name="user_подходит_по_критериям:"><label for="Навыки" class="light">Навыки</label>
-     <input type="checkbox" id="Сразу видно, что свой человек" value="Сразу видно, что свой человек" name="user_подходит_по_критериям:"><label for="Сразу видно, что свой человек" class="light">Сразу видно, что свой человек</label><br>
+     <input type="checkbox" id="skills" value="Навыки" name="user_подходит_по_критериям:"><label for="Навыки" class="light">Навыки</label>
+     <input type="checkbox" id="HI_HI" value="Сразу видно, что свой человек" name="user_подходит_по_критериям:"><label for="Сразу видно, что свой человек" class="light">Сразу видно, что свой человек</label><br>
     <br>
      <label>Образование, курсы и т.п. </label><br>
      <style>
             table, th, td {
-              border: 1px solid black;
+              border: 3px solid black;
               border-collapse: collapse;
+              text-align: center;
             }
             </style>
-      <table style="width:50%">
+      <table style="width:100%">
             <tr>
               <th>№</th>
               <th>Сроки обучения</th> 
@@ -80,6 +86,8 @@
               <td>LevelUP, Soft skills</td> 
             </tr>
           </table>
+          <br>
+          <button type="submit">ОТПРАВИТЬ</button><br>
 
     </body> 
 </html>
