@@ -8,20 +8,23 @@ body {
 }
 
 .target {
+    display: block;
+    width: 800px;
     background-color: #adc3ff;
     flex-wrap: wrap;
     border-radius: 10px;  
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+      
 }
 
 h1{
     display: flex;
     justify-content: center;
+    margin-top: 5px;
     color: rgb(95, 23, 177);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-size: 50px; 
+    font-size: 40px; 
     margin-bottom: -20px;
 }
 
@@ -30,9 +33,14 @@ img.ventura {
     width:300px;
     margin-left: 15px;
 }
+
+a{ 
+   padding-left: 10px;
+   font-size: 18px;
+}
+
 img.calendar1 {
-    background-color: darkslateblue;
-    width:100px;
+    width:25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 14px; 
     border-radius: 4px;
@@ -43,36 +51,35 @@ span {
     font-style: italic;
     font-weight: bold;
 }
+
 label span {
     font-size: 30px;
     color: rgb(47, 90, 76);
     font-weight: bold;
     margin-left: 10px;   
 }
-pre {
-    display: block;
-    margin-bottom: 30px;
-    height: 250px;
-    font-family: Gabriola;
-    font-size: 30px;
-    color: #1f333b;
-    font-weight: bolder;
-    text-shadow: #7d2a88a1 2px 3px 2px;    
-    font-style: initial;  
-    margin-top: -10px;
-}
 
 table{
     color: rgb(47, 90, 76);
   }
 
-label{
+label.fu {
     font-family: Gabriola;
     color: #1f333b;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #7d2a88a1 2px 3px 2px; 
+    font-style: initial;
+    margin-left: 10px; 
+   
+}
+
+label.light {
+    font-family: cursive;
+    color: #1f333b;
+    font-size: 16px;
     font-weight: bolder;
     font-style: initial;
-    text-shadow: #7d2a88a1 2px 3px 2px; 
     margin-left: 10px;   
 }
 
@@ -93,6 +100,24 @@ li{
     margin-left: 10px;   
 }
 
+p{font-family: Gabriola;
+    color: #1f333b;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: initial;
+    margin-left: 10px; 
+}
+
+input {
+    margin-left: 20px; 
+    font-family: Gabriola;
+    color: #1f333b;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: initial;
+}
+
+
 element.style {
     border-bottom-width: 25px;
     border-top-width: 20px;
@@ -103,14 +128,11 @@ element.style {
     
 }   
 [type="number"] {
-    
+    height: 30px;
     border: 3px solid palevioletred;
 }
 
 [type="text"]{
+    height: 30px;
     border: 3px dashed orangered;
-}
-
-input {
-    margin-left: 20px; 
 }
