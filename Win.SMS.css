@@ -1,0 +1,109 @@
+.main-container{ 
+    width: 800px;
+    height: 600px;
+} 
+
+.row{
+   width: 800px;
+   height: 70px;
+   align-items: flex-start;
+   background-color: rgba(34, 110, 224, 0.856);
+   border-right: 1px solid black;
+}
+
+.people{  
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top-color: black;
+    -moz-force-broken-image-icon: 0; 
+    position: relative;
+    background-color: rgba(34, 110, 224, 0.856);
+    margin: 10px;
+    align-self: flex-start;
+    font-size: 25px;  
+}
+
+.hi{ display: block;
+    height: 20px;
+    background-color: rgba(34, 110, 224, 0.856);
+    font-size: 20px; 
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.p{
+    display: block;
+    height: 20px;
+    background-color: rgba(34, 110, 224, 0.856);
+    align-items: flex-start;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.chat{  
+    width: 500px;
+    height: 30px;
+    border-radius: 4%;
+    border-top-color: black;
+    -moz-force-broken-image-icon: 0;
+    background-color:rgb(30, 41, 104);
+    position: relative;
+    background-color: #fafbfc;
+    justify-content: center;
+}   
+
+p.name { 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+a.name2 { 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    margin-left:60px;
+    font-size: 15px;
+    
+}
+
+.small_container {
+    display: flex;
+    width: 150px;
+    height: 530px;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(36, 17, 146);
+    border-right: 1px solid black;
+    justify-content: space-around;
+}
+
+.small_container.right {
+    display: flex;
+    width: 800px;
+    height: 530px; 
+    background-color:rgb(30, 41, 104);
+    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.small_container_chat {
+    display: flex;
+    width: 650px;
+    height: 530px; 
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a.chat2 { 
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
