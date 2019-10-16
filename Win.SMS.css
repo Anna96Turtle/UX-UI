@@ -24,21 +24,20 @@
     font-size: 25px;  
 }
 
-.hi{ display: block;
-    height: 20px;
-    background-color: rgba(34, 110, 224, 0.856);
-    font-size: 20px; 
-    margin-top: -20px;
-    margin-bottom: 0px;
+.h1{ display: block;
+    font-size: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
-.p{
+.p.f {
     display: block;
-    height: 20px;
-    background-color: rgba(34, 110, 224, 0.856);
-    align-items: flex-start;
-    font-size: 14px;
-    margin-top: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14ps;
 }
 
 .chat{  
@@ -46,8 +45,6 @@
     height: 30px;
     border-radius: 4%;
     border-top-color: black;
-    -moz-force-broken-image-icon: 0;
-    background-color:rgb(30, 41, 104);
     position: relative;
     background-color: #fafbfc;
     justify-content: center;
