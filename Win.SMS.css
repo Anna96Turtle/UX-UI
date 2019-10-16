@@ -52,6 +52,14 @@ img.crest {
     justify-content: center;
 }   
 
+.chat_name {
+display: flex;
+width: 500px;
+color: rgb(255, 255, 255);
+position: relative;
+justify-content: flex-start;
+} 
+
 p.name { 
     height: 50px;
     display: flex;
