@@ -38,8 +38,10 @@ img.crest {
     font-weight: bold;
 }
 
-.a.f {
-    font-size: 14ps;
+.f{
+    display: flex;
+    margin-top: -20px;
+    font-size: 16px;
 }
 
 .chat{  
@@ -56,7 +58,9 @@ img.crest {
 display: flex;
 width: 500px;
 color: rgb(255, 255, 255);
-position: relative;
+margin-bottom:-10px;
+
+border-image-repeat: none;
 justify-content: flex-start;
 } 
 
@@ -76,6 +80,7 @@ a.name2 {
     margin-top: -50px;
     margin-left:60px;
     font-size: 15px;
+    color: blanchedalmond;
     
 }
 
