@@ -39,31 +39,32 @@ img.crest {
   
 }
 
-.small_container.right {
+.main-content {
     width: 798px;
-    background-color:rgb(30, 41, 104);
+    height: 400px;
+    justify-content: space-around;
         overflow: auto; 
         border: solid 1px black;
        
 }
 
-.small_container {
+.message {
+    display: flex; 
+}
+
+.left-part {
     display: flex;
-    width: 150px;
-    height: 530px;
-    position: absolute;
+    width: 250px;
+    height: auto;
     flex-flow: column;
     background-color: rgb(36, 17, 146);
     border-right: 1px solid black;
-    
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
-.small_container2{
+.right-part{
     display: flex;
-    width: 649px;
-    height: 530px;
-    margin-left: 150px; 
+    background-color:rgb(30, 41, 104);
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
