@@ -76,22 +76,18 @@ img.crest {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border-top-color: black;
-    -moz-force-broken-image-icon: 0; 
     position: relative;
     background-color: rgba(34, 110, 224, 0.856);
     margin: 10px;
-    align-self: flex-start;
     font-size: 25px;  
 }
 
-p.name2 { 
+.name2 { 
     height: 50px;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
     margin-top: -50px;
-    margin-left:60px;
-    font-size: 15px;
+    margin-right:16px;
     color: blanchedalmond;
     
 }
