@@ -40,16 +40,19 @@ img.crest {
 }
 
 .main-content {
-    width: 798px;
+    width: 800px;
     height: 400px;
+    background-color: rgb(36, 17, 146);
     justify-content: space-around;
         overflow: auto; 
-        border: solid 1px black;
+        
        
 }
 
 .message {
     display: flex; 
+    align-items: center;
+    
 }
 
 .left-part {
@@ -57,8 +60,6 @@ img.crest {
     width: 250px;
     height: auto;
     flex-flow: column;
-    background-color: rgb(36, 17, 146);
-    border-right: 1px solid black;
     justify-content: flex-start;
 }
 
@@ -68,6 +69,7 @@ img.crest {
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
+    border-left: 1px solid black;
 }
 
 .people{  
